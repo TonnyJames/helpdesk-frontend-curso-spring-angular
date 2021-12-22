@@ -1,7 +1,7 @@
 .component {
-    width: 35rem;
-    margin: auto;
-    padding: 1rem;
+    width        : 35rem;
+    margin       : auto;
+    padding      : 1rem;
     border-radius: .6rem;
 }
 
@@ -9,7 +9,8 @@
     width: 100%;
 }
 
-h1, p {
+h1,
+p {
     text-align: center;
 }
 
@@ -17,9 +18,10 @@ img {
     height: 12rem;
     margin: auto;
 }
+
 .section {
-    margin-bottom: 1rem;
-    display: flex;
+    margin-bottom  : 1rem;
+    display        : flex;
     justify-content: space-between;
 }
 
@@ -27,10 +29,9 @@ button {
     margin-top: .5rem;
 }
 
-
-p{
+p {
     margin-top: 4rem;
-    opacity: .5;
+    opacity   : .5;
 }
 
 mat-icon {

@@ -32,7 +32,9 @@
               name="cpf"
               [formControl] = "cpf"
               required
-              matInput placeholder="123.456.789-10">
+              matInput placeholder="123.456.789-10"
+              mask="000.000.000.00">
+              >
               <mat-icon matSuffix>pin</mat-icon>
             </mat-form-field>
           </p>
@@ -59,8 +61,7 @@
               [formControl] = "senha"
               required
               type="password" matInput 
-              placeholder="1234"
-              mask="000.000.000.00">
+              placeholder="1234">
               <mat-icon matSuffix>password</mat-icon>
             </mat-form-field>
 
